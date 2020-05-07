@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132B91A42464B3A300C5741E /* FeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B91A32464B3A300C5741E /* FeatureCell.swift */; };
+		132B91A62464B3C600C5741E /* FeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132B91A52464B3C600C5741E /* FeatureCell.xib */; };
 		133DF2C42463D457000CFCD8 /* SanFranciscoDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 133DF2B72463D457000CFCD8 /* SanFranciscoDisplay-Heavy.otf */; };
 		133DF2C52463D457000CFCD8 /* SanFranciscoText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 133DF2B82463D457000CFCD8 /* SanFranciscoText-RegularItalic.otf */; };
 		133DF2C62463D457000CFCD8 /* SanFranciscoDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 133DF2B92463D457000CFCD8 /* SanFranciscoDisplay-Ultralight.otf */; };
@@ -65,6 +67,10 @@
 		133DF32924644CDA000CFCD8 /* BigPictureStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF32824644CDA000CFCD8 /* BigPictureStory.storyboard */; };
 		133DF33724645E51000CFCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF33624645E51000CFCD8 /* Main.storyboard */; };
 		133DF33924645F05000CFCD8 /* TabBarMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF33824645F05000CFCD8 /* TabBarMenu.storyboard */; };
+		133DF33B24646404000CFCD8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF33A24646404000CFCD8 /* Home.storyboard */; };
+		133DF33D24646459000CFCD8 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF33C24646459000CFCD8 /* Category.storyboard */; };
+		133DF33F24646476000CFCD8 /* Favorite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF33E24646476000CFCD8 /* Favorite.storyboard */; };
+		133DF34124646488000CFCD8 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133DF34024646488000CFCD8 /* Profile.storyboard */; };
 		134F1C0E2461F7DC00D9645A /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1C0D2461F7DC00D9645A /* LoginSignupViewController.swift */; };
 		135A49132460F88000B3D538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A49122460F88000B3D538 /* AppDelegate.swift */; };
 		135A49152460F88000B3D538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A49142460F88000B3D538 /* SceneDelegate.swift */; };
@@ -76,9 +82,13 @@
 		135FEAEB24636B9C00C86678 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135FEAEA24636B9C00C86678 /* CustomTextField.swift */; };
 		135FEAED24636D7A00C86678 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135FEAEC24636D7A00C86678 /* SignUpViewController.swift */; };
 		135FEAEF24637CC300C86678 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135FEAEE24637CC300C86678 /* CustomNavigationController.swift */; };
+		13F65B4624649623004E2F72 /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F65B4524649623004E2F72 /* RecipeCell.xib */; };
+		13F65B482464A03B004E2F72 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F65B472464A03A004E2F72 /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		132B91A32464B3A300C5741E /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
+		132B91A52464B3C600C5741E /* FeatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureCell.xib; sourceTree = "<group>"; };
 		133DF2B72463D457000CFCD8 /* SanFranciscoDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Heavy.otf"; sourceTree = "<group>"; };
 		133DF2B82463D457000CFCD8 /* SanFranciscoText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-RegularItalic.otf"; sourceTree = "<group>"; };
 		133DF2B92463D457000CFCD8 /* SanFranciscoDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Ultralight.otf"; sourceTree = "<group>"; };
@@ -137,6 +147,10 @@
 		133DF32824644CDA000CFCD8 /* BigPictureStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BigPictureStory.storyboard; sourceTree = "<group>"; };
 		133DF33624645E51000CFCD8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		133DF33824645F05000CFCD8 /* TabBarMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBarMenu.storyboard; sourceTree = "<group>"; };
+		133DF33A24646404000CFCD8 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		133DF33C24646459000CFCD8 /* Category.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
+		133DF33E24646476000CFCD8 /* Favorite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorite.storyboard; sourceTree = "<group>"; };
+		133DF34024646488000CFCD8 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		134F1C0D2461F7DC00D9645A /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		135A490F2460F88000B3D538 /* final-recipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "final-recipeApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A49122460F88000B3D538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +164,8 @@
 		135FEAEA24636B9C00C86678 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		135FEAEC24636D7A00C86678 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		135FEAEE24637CC300C86678 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		13F65B4524649623004E2F72 /* RecipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
+		13F65B472464A03A004E2F72 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,8 +249,44 @@
 			children = (
 				133DF33624645E51000CFCD8 /* Main.storyboard */,
 				133DF33824645F05000CFCD8 /* TabBarMenu.storyboard */,
+				133DF33A24646404000CFCD8 /* Home.storyboard */,
+				133DF33C24646459000CFCD8 /* Category.storyboard */,
+				133DF33E24646476000CFCD8 /* Favorite.storyboard */,
+				133DF34024646488000CFCD8 /* Profile.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		133DF3422464662A000CFCD8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				133DF31E246447DA000CFCD8 /* HomeTableTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		133DF34324646684000CFCD8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				133DF32024644824000CFCD8 /* CategoryTableViewController.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		133DF344246466DB000CFCD8 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				133DF32224644875000CFCD8 /* FavoriteTableViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		133DF3452464671A000CFCD8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				133DF326246449D4000CFCD8 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		134F1C092461F10C00D9645A /* custom */ = {
@@ -248,18 +300,14 @@
 			path = custom;
 			sourceTree = "<group>";
 		};
-		134F1C0C2461F7A200D9645A /* viewController */ = {
+		134F1C0C2461F7A200D9645A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				133DF326246449D4000CFCD8 /* ProfileViewController.swift */,
 				134F1C0D2461F7DC00D9645A /* LoginSignupViewController.swift */,
 				135FEAE8246362DA00C86678 /* LogInViewController.swift */,
 				135FEAEC24636D7A00C86678 /* SignUpViewController.swift */,
-				133DF31E246447DA000CFCD8 /* HomeTableTableViewController.swift */,
-				133DF32024644824000CFCD8 /* CategoryTableViewController.swift */,
-				133DF32224644875000CFCD8 /* FavoriteTableViewController.swift */,
 			);
-			path = viewController;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		135A49062460F88000B3D538 = {
@@ -281,8 +329,13 @@
 		135A49112460F88000B3D538 /* final-recipeApp */ = {
 			isa = PBXGroup;
 			children = (
+				13F65B42246494C3004E2F72 /* Cells */,
+				134F1C0C2461F7A200D9645A /* Main */,
 				133DF32D24645ABE000CFCD8 /* Storyboard */,
-				134F1C0C2461F7A200D9645A /* viewController */,
+				133DF3452464671A000CFCD8 /* Profile */,
+				133DF3422464662A000CFCD8 /* Home */,
+				133DF344246466DB000CFCD8 /* Favorite */,
+				133DF34324646684000CFCD8 /* Category */,
 				134F1C092461F10C00D9645A /* custom */,
 				135A49122460F88000B3D538 /* AppDelegate.swift */,
 				135A49142460F88000B3D538 /* SceneDelegate.swift */,
@@ -294,6 +347,17 @@
 				133DF2B62463D457000CFCD8 /* SanFranciscoFont-master */,
 			);
 			path = "final-recipeApp";
+			sourceTree = "<group>";
+		};
+		13F65B42246494C3004E2F72 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				13F65B472464A03A004E2F72 /* RecipeCell.swift */,
+				13F65B4524649623004E2F72 /* RecipeCell.xib */,
+				132B91A32464B3A300C5741E /* FeatureCell.swift */,
+				132B91A52464B3C600C5741E /* FeatureCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,7 +418,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133DF33D24646459000CFCD8 /* Category.storyboard in Resources */,
 				133DF318246436F8000CFCD8 /* ic_difficulty.png in Resources */,
+				132B91A62464B3C600C5741E /* FeatureCell.xib in Resources */,
 				133DF302246436F8000CFCD8 /* Oval.png in Resources */,
 				133DF2FF246436F8000CFCD8 /* ic_profile_grey.png in Resources */,
 				133DF2FB246436F8000CFCD8 /* ic_favorites_grey.png in Resources */,
@@ -369,9 +435,12 @@
 				133DF2F8246436F8000CFCD8 /* ic_favorites_grey@2x.png in Resources */,
 				133DF306246436F8000CFCD8 /* ic_home_orange@3x.png in Resources */,
 				133DF2F9246436F8000CFCD8 /* ic_arrow_back_white.png in Resources */,
+				133DF33B24646404000CFCD8 /* Home.storyboard in Resources */,
+				133DF33F24646476000CFCD8 /* Favorite.storyboard in Resources */,
 				133DF2CB2463D457000CFCD8 /* SanFranciscoText-SemiboldItalic.otf in Resources */,
 				133DF31B246436F8000CFCD8 /* ic_difficulty_small.png in Resources */,
 				133DF30C246436F8000CFCD8 /* ic_favorites_orange@2x.png in Resources */,
+				13F65B4624649623004E2F72 /* RecipeCell.xib in Resources */,
 				133DF317246436F8000CFCD8 /* ic_recipes_grey@3x.png in Resources */,
 				133DF31D246436F8000CFCD8 /* ic_search_white.png in Resources */,
 				133DF31A246436F8000CFCD8 /* 1.png in Resources */,
@@ -393,6 +462,7 @@
 				133DF30D246436F8000CFCD8 /* ic_profile_orange@3x.png in Resources */,
 				133DF310246436F8000CFCD8 /* ic_recipes_orange@3x.png in Resources */,
 				133DF2FD246436F8000CFCD8 /* ic_favorites_grey@3x.png in Resources */,
+				133DF34124646488000CFCD8 /* Profile.storyboard in Resources */,
 				133DF2CC2463D457000CFCD8 /* README.md in Resources */,
 				133DF313246436F8000CFCD8 /* ic_recipes_grey2.png in Resources */,
 				133DF30E246436F8000CFCD8 /* salad.png in Resources */,
@@ -423,10 +493,12 @@
 				135FEAEB24636B9C00C86678 /* CustomTextField.swift in Sources */,
 				133DF31F246447DA000CFCD8 /* HomeTableTableViewController.swift in Sources */,
 				135FEAE52462D39200C86678 /* CustomButton.swift in Sources */,
+				13F65B482464A03B004E2F72 /* RecipeCell.swift in Sources */,
 				135FEAED24636D7A00C86678 /* SignUpViewController.swift in Sources */,
 				133DF32124644824000CFCD8 /* CategoryTableViewController.swift in Sources */,
 				133DF32324644875000CFCD8 /* FavoriteTableViewController.swift in Sources */,
 				135FEAEF24637CC300C86678 /* CustomNavigationController.swift in Sources */,
+				132B91A42464B3A300C5741E /* FeatureCell.swift in Sources */,
 				135FEAE724635C8100C86678 /* CustomLabel.swift in Sources */,
 				135FEAE9246362DA00C86678 /* LogInViewController.swift in Sources */,
 				135A49132460F88000B3D538 /* AppDelegate.swift in Sources */,

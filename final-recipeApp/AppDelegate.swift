@@ -11,10 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
+        // code to skip login and start at homescreen automatically 
+//        let tabBarStoryBoad = UIStoryboard(name: "TabBarMenu", bundle: nil)
+//        let tabBarController = tabBarStoryBoad.instantiateViewController(withIdentifier: "TabBarSection") as? UITableViewController
+//
+//        window?.rootViewController = tabBarController
+//        window?.makeKeyAndVisible()
+         
         return true
     }
 

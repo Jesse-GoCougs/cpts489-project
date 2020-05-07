@@ -8,17 +8,19 @@
 
 import UIKit
 
-class LogInViewController: UIViewController {
+class LogInViewController: UIViewController, UITextFieldDelegate{
 
     // UI View Properties
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!
     
     
     // first function to load
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpProperties()
+       
     }
     
     func setUpProperties()
@@ -45,7 +47,28 @@ class LogInViewController: UIViewController {
               return true
       }
     
-    
-    
+ 
 
 }
+
+
+ // mark - textfield slidesup
+ extension LogInViewController
+ {
+     func textFieldDidBeginEditing(_ textField: UITextField) {
+        // textField.becomeFirstResponder()
+        navigationController?.navigationBar.isHidden = true
+        topConstraint.constant = CGFloat(40)
+
+     }
+     
+     func textFieldDidEndEditing(_ textField: UITextField) {
+          topConstraint.constant = CGFloat(85)
+     }
+     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        navigationController?.navigationBar.isHidden = false
+        topConstraint.constant = CGFloat(85)
+        textField.resignFirstResponder()
+        return true
+     }
+ }
